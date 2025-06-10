@@ -1,2 +1,5 @@
-# louisiana-sound-harmony
-Site oficial da Louisiana Sound Harmony
+# Louisiana Sound Harmony
+
+Site oficial em construção.
+
+Em breve mais novidades!
