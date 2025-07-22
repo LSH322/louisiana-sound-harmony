@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fale Conosco - LSH</title>
+  <title>Contato - Louisiana Sound Harmony</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <a href="index.html">← Voltar</a>
-    <h2>Fale Conosco</h2>
-  </header>
-  <main>
-    <form action="https://formsubmit.co/louisianasoundharmony@gmail.com" method="POST">
-      <label for="nome">Seu nome</label>
-      <input type="text" id="nome" name="name" required />
+  <h1>Fale Conosco</h1>
+  <p>Preencha o formulário abaixo e entraremos em contato.</p>
 
-      <label for="email">Seu e-mail</label>
-      <input type="email" id="email" name="email" required />
+  <form action="https://formsubmit.co/louisianasoundharmony@gmail.com" method="POST">
+    <input type="text" name="nome" placeholder="Seu nome" required />
+    <input type="email" name="email" placeholder="Seu e-mail" required />
+    <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
 
-      <label for="mensagem">Mensagem</label>
-      <textarea id="mensagem" name="message" rows="5" required></textarea>
+    <!-- Redirecionamento -->
+    <input type="hidden" name="_next" value="https://www.louisianash.com.br/obrigado.html">
+    <!-- Anti-spam -->
+    <input type="hidden" name="_captcha" value="false">
 
-      <!-- Proteção anti-spam e redirecionamento -->
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://lsh322.github.io/louisiana-sound-harmony/obrigado.html">
-
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
+    <button type="submit">Enviar</button>
+  </form>
 </body>
 </html>
