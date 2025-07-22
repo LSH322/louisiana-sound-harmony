@@ -1,1 +1,63 @@
-body { font-family: Arial, sans-serif; background-color: #f8f8f8; color: #333; margin: 0; padding: 20px; } h1 { color: #8B0000; }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.botao-contato {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #c00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

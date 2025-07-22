@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fale Conosco - LSH</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">← Voltar</a>
+    <h2>Fale Conosco</h2>
+  </header>
+  <main>
+    <form action="https://formsubmit.co/louisianasoundharmony@gmail.com" method="POST">
+      <label for="nome">Seu nome</label>
+      <input type="text" id="nome" name="name" required />
+
+      <label for="email">Seu e-mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="message" rows="5" required></textarea>
+
+      <!-- Proteção anti-spam e redirecionamento -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://lsh322.github.io/louisiana-sound-harmony/obrigado.html">
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
